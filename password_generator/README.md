@@ -206,7 +206,6 @@ The initial version of the project is intentionally simple:
 
 ```text
 └── password_generator/
-    ├── .gitignore
     ├── LICENSE
     ├── main.go
     └── README.md
@@ -223,10 +222,6 @@ Project documentation, requirements, features, and usage instructions.
 ### `LICENSE`
 
 Defines how the project can be used, modified, and distributed.
-
-### `.gitignore`
-
-Contains files and directories that should not be committed to Git.
 
 ---
 
