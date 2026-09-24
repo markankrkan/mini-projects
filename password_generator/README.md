@@ -36,19 +36,25 @@ go version
 
 ## HOW TO RUN
 
-### 1. Clone the repository
+### 1. Open the project folder
 
-```bash
-git clone https://github.com/markankrkan/mini-projects/password_generator.git
-```
+Go to the following folder in the GitHub repository: `mini-projects/`
 
-### 2. Navigate into the project
+### 2. Download the project
 
-```bash
-cd password_generator
-```
+Click the Code button and select Download ZIP.
 
-### 3. Run the program
+### 3. Extract the ZIP file
+
+Extract the downloaded ZIP file to a location of your choice.
+
+### 4. Open the project folder
+
+Open the extracted `password_generator` folder in your terminal.
+
+### 5. Run the program
+
+Run the following command:
 
 ```bash
 go run .
