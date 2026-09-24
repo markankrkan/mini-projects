@@ -1,7 +1,7 @@
 package main
 
 import (
-	"crypot/rand"
+	"crypto/rand"
 	"fmt"
 	"math/big"
 )
