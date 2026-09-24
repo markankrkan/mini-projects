@@ -39,15 +39,13 @@ go version
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/markankrkan/password-generator.git
+git clone https://github.com/markankrkan/mini-projects/password_generator.git
 ```
-
-Replace `USERNAME` with your GitHub username.
 
 ### 2. Navigate into the project
 
 ```bash
-cd password-generator
+cd password_generator
 ```
 
 ### 3. Run the program
@@ -80,7 +78,13 @@ Length: 20
 
 ---
 
-## Features
+
+
+<br>
+
+
+
+## FEATURES
 
 ### 🔐 Secure Random Generation
 
@@ -115,7 +119,7 @@ Generated passwords can contain:
 * Lowercase letters: `a-z`
 * Uppercase letters: `A-Z`
 * Numbers: `0-9`
-* Symbols: `@#$%&/=?*+-_`
+* Symbols: `!#$%&/=?*+-_@`
 
 ### ✅ Character-Type Guarantee
 
@@ -162,7 +166,13 @@ This is required because the generator guarantees one character from each of the
 
 ---
 
-## Character Sets
+
+
+<br>
+
+
+
+## CHARACTER SETS
 
 The generator currently uses:
 
@@ -184,16 +194,22 @@ These sets can be modified in the Go source code if you want to add or remove ch
 
 ---
 
-## Project Structure
+
+
+<br>
+
+
+
+## PROJECT STRUCTURE
 
 The initial version of the project is intentionally simple:
 
 ```text
-password-generator/
-├── main.go
-├── README.md
-├── LICENSE
-└── .gitignore
+└── password_generator/
+    ├── .gitignore
+    ├── LICENSE
+    ├── main.go
+    └── README.md
 ```
 
 ### `main.go`
@@ -214,7 +230,13 @@ Contains files and directories that should not be committed to Git.
 
 ---
 
-## Example Output
+
+
+<br>
+
+
+
+## EXAMPLE OUTPUT
 
 ```text
 ==============================
@@ -232,24 +254,13 @@ Length: 16
 
 ---
 
-## Future Features
 
-Possible improvements for future versions:
 
-* [ ] Generate multiple passwords at once
-* [ ] Copy password directly to clipboard
-* [ ] Password strength indicator
-* [ ] Command-line flags
-* [ ] Configurable character sets
-* [ ] Option to exclude ambiguous characters
-* [ ] Save generated passwords to a file
-* [ ] Interactive configuration menu
-* [ ] GUI version
-* [ ] Password generation history
+<br>
 
----
 
-## Security Note
+
+## SECURITY NOTE
 
 This project uses `crypto/rand` rather than Go's `math/rand` for password generation.
 
@@ -259,7 +270,13 @@ For highly sensitive credentials, consider using a dedicated password manager.
 
 ---
 
-## License
+
+
+<br>
+
+
+
+## LICENSE
 
 This project is licensed under the **MIT License**.
 
